@@ -1,0 +1,24 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.24;
+}
+.buttons:hover{
+    background-color: hsl(hue, saturation, lightness);
+}
